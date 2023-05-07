@@ -42680,6 +42680,7 @@
       /***/
     },
     /* 168 */
+    // check login
     /***/ function (module, __webpack_exports__, __webpack_require__) {
       "use strict";
       /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ =
@@ -42847,7 +42848,7 @@
                         null,
                         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                           "h1",
-                          null,
+                          { style: { "font-size": "50px", "margin-top": "300px" } },
                           "Your token expired!"
                         ),
                         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
@@ -42861,8 +42862,8 @@
                             style: {
                               position: "sticky",
                               padding: "25px",
-                              "font-size": "50px",
-                              "margin-left": "40%",
+                              "font-size": "30px",
+                              "margin-left": "42%",
                             },
                           },
                           "Sign back in"
