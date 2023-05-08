@@ -63,7 +63,7 @@ app.get('/callback', function (req, res) {
   let storedState = req.cookies ? req.cookies[stateKey] : null;
   // we can also pass the token to the browser to make requests from there
   let uri = process.env.FRONTEND_URI || 'http://127.0.0.1:5000/#'
-
+  console.log("uri: " + process.env.FRONTEND_URI)
 
   if (state === null || state !== storedState) {
     res.redirect(uri +
@@ -84,8 +84,6 @@ app.get('/callback', function (req, res) {
     };
 
     request.post(authOptions, function (error, response, body) {
-      console.log("error: " + error)
-      console.log("authOptions: " + authOptions)
       if (!error && response.statusCode === 200) {
 
         let access_token = body.access_token;
@@ -143,5 +141,5 @@ app.get('/refresh_token', function (req, res) {
 });
 
 let port = process.env.PORT || 8888
-console.log(`Listening on port ${port}. Go /login to initiate authentication flow.`)
+console.log(`Listening on port http://localhost:${port}. Go /login to initiate authentication flow.`)
 app.listen(port)
