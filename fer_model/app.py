@@ -10,7 +10,6 @@ import flask
 from flask import request, jsonify, Flask, url_for
 from PIL import Image
 import base64
-from flask_ngrok import run_with_ngrok
 
 
 app = Flask(__name__)
@@ -80,3 +79,6 @@ def predict():
     print(response)
     return jsonify(response)
 
+
+if __name__ == '__main__':
+    app.run(debug=True)

@@ -5,27 +5,7 @@ var precacheConfig = [
       "565758683d81cceb25fa1af4c544be5c",
     ],
     [
-      "/static/react/static/media/angry.481d3b52.jpg",
-      "481d3b523ed0b5c21a44b6a20806df06",
-    ],
-    [
-      "/static/react/static/media/happy.f511244f.jpg",
-      "f511244f6aa4ed1c95cbfc31feea318a",
-    ],
-    [
-      "/static/react/static/media/neutral.da5de01f.jpg",
-      "da5de01f1ebd7b1a4ddb455b281828be",
-    ],
-    [
-      "/static/react/static/media/sad.c7890f89.jpg",
-      "c7890f8983f2e94ead2e3fb39da9603a",
-    ],
-    [
-      "/static/react/static/media/surprised.63a63625.jpg",
-      "63a636251819d676629c8eca1c00876b",
-    ],
-    [
-      "C:/Users/schma/Documents/4th Yr/FYP/FINALE/FYP_Software201819/fer_model/templates/index.html",
+      "/fer_model/templates/index.html",
       "3be8404149860d528e0e211939a835fd",
     ],
   ],
