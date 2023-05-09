@@ -42857,7 +42857,7 @@
                           ],
                           {
                             onClick: function onClick() {
-                              window.location = "http://localhost:8888";
+                              window.location = "https://moodify-kab0.onrender.com";
                             },
                             style: {
                               position: "sticky",
@@ -53941,7 +53941,7 @@
                     __WEBPACK_IMPORTED_MODULE_2_reactstrap__[
                       "k" /* NavbarBrand */
                     ],
-                    { href: "http://localhost:8888" },
+                    { href: "https://moodify-kab0.onrender.com" },
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                       "h2",
                       null,
@@ -71492,7 +71492,7 @@
                 this.createPlaybackHandlers(); // finally, connect!
                 this.player.connect();
               } else {
-                window.location = "http://localhost:8888";
+                window.location = "https://moodify-kab0.onrender.com";
               }
             },
           },
