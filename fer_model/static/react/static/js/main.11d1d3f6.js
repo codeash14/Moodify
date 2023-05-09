@@ -54157,7 +54157,7 @@
             key: "predictData",
             value: function predictData(message) {
               var _this2 = this;
-              fetch("https://moodify-fer-player.onrender.com/", {
+              fetch("https://moodify-fer-player.onrender.com", {
                 method: "post",
                 headers: {
                   Accept: "application/json",
