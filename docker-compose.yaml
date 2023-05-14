@@ -1,0 +1,15 @@
+version: "1"
+
+services:
+  frontend:
+    build: ./moodify_webapp
+    ports: 
+      - "8888:8888"
+
+
+  backend:
+    build: ./fer_model
+    ports:
+      - "5000:5000"
+    depends_on:
+      - frontend
