@@ -5,7 +5,7 @@
 
 The project focuses on developing a system that presents a cross-platform music player, which recommends music based on the real-time mood of the user through a web camera.
 
-As a music listener, we have always felt that music players should do way more things than just playing songs and allowing users to make play-lists. A music playlist should be intelligent and act in keeping with the user's preferences. A music playlist should help users organize and list the songs automatically without putting much effort into selection and re-organization of songs.
+As a music listener, we have always felt that music players should do way more things than just playing songs and allowing users to make play-lists. A music playlist should be intelligent and act in keeping with the user's preferences. A music playlist should help users to organize and list the songs automatically without putting much effort into selection and re-organization of songs.
 
 The Generating Playlist Using Facial Expressions provides a better platform to any or all the music listeners, and ensures automation of generating a playlist according to the emotion of the user. This helps users to generate a playlist according to their moods. It recommends the top playlist based on the mood of the user using Spotify API. The dataset used for training the model is taken from kaggle.
 
