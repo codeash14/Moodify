@@ -58706,7 +58706,7 @@
 
       /***/
     },
-    /* 267 */
+    /* 267  Container 2 - Mood predictions*/
     /***/ function (module, __webpack_exports__, __webpack_require__) {
       "use strict";
       /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ =
@@ -59031,7 +59031,7 @@
 
       /***/
     },
-    /* 268 */
+    /* 268 - Container 3- Moodify Jukebox and Moodify Playlist */
     /***/ function (module, __webpack_exports__, __webpack_require__) {
       "use strict";
       /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ =
@@ -59584,7 +59584,7 @@
 
       /***/
     },
-    /* 269 */
+    /* 269 - Container 4 - Display Playlist and Tracks*/
     /***/ function (module, __webpack_exports__, __webpack_require__) {
       "use strict";
       /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ =
@@ -71231,7 +71231,7 @@
 
       /***/
     },
-    /* 352 */
+    /* 352 Container 5 - Moodify Player*/
     /***/ function (module, __webpack_exports__, __webpack_require__) {
       "use strict";
       /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_regenerator__ =
